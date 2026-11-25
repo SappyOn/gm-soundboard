@@ -73,8 +73,9 @@
 
   /* ------------------------------------------------- IndexedDB for user files */
   const idb = new Promise((resolve) => {
-    if (!("indexedDB" in window)) return resolve(null);
-    const req = indexedDB.open("gmsb-files", 1);
+    let req;
+    try { req = window.indexedDB && indexedDB.open("gmsb-files", 1); } catch { req = null; }
+    if (!req) return resolve(null);
     req.onupgradeneeded = () => req.result.createObjectStore("files");
     req.onsuccess = () => resolve(req.result);
     req.onerror = () => resolve(null);
