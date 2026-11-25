@@ -1,0 +1,12 @@
+{
+  "name": "gm-soundboard-web",
+  "private": true,
+  "scripts": {
+    "build": "python build.py",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4"
+  }
+}

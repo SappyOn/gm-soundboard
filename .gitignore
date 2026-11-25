@@ -1,0 +1,20 @@
+# Python / build
+__pycache__/
+*.pyc
+.venv/
+desktop/build/
+desktop/dist/
+desktop/*.spec
+desktop/build.log
+desktop/winget.log
+desktop/install_status.txt
+# runtime data created next to the program
+desktop/presets.json
+desktop/settings.json
+desktop/sounds/
+# web
+node_modules/
+.wrangler/
+# sound-pack sources and scratch
+tools/soundpack/src/
+tools/soundpack/tmp/

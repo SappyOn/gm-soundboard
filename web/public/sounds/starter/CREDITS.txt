@@ -1,0 +1,50 @@
+GM Soundboard starter sounds — all CC0 / public domain
+
+night-city/01_neon_rain.ogg
+    RAIN_CityRain_LOOP_01.ogg — Meta Open Sound — Oculus Audio Pack (CC0) — github.com/facebookincubator/meta-open-sound
+night-city/02_megacity_hum.ogg
+    AMBUrbn_CityAmerican_LOOP_01.ogg — Meta Open Sound — Oculus Audio Pack (CC0) — github.com/facebookincubator/meta-open-sound
+night-city/03_club_behind_wall.ogg
+    synthesized for GM Soundboard (CC0)
+night-city/04_street_market.ogg
+    AMBUrbn_CityEuroDaytime_LOOP_01.ogg — Meta Open Sound — Oculus Audio Pack (CC0) — github.com/facebookincubator/meta-open-sound
+night-city/05_ncpd_siren.ogg
+    synthesized for GM Soundboard (CC0)
+night-city/06_pistol_shot.ogg
+    synthesized for GM Soundboard (CC0)
+night-city/07_auto_burst.ogg
+    synthesized for GM Soundboard (CC0)
+night-city/08_shotgun.ogg
+    synthesized for GM Soundboard (CC0)
+night-city/09_explosion.ogg
+    synthesized for GM Soundboard (CC0)
+night-city/10_monowire_lash.ogg
+    synthesized for GM Soundboard (CC0)
+night-city/11_ricochet.ogg
+    synthesized for GM Soundboard (CC0)
+night-city/12_glass_shatter.ogg
+    GLASBrk_WindowPaneSmallBreak_OS_01.ogg — Meta Open Sound — Oculus Audio Pack (CC0) — github.com/facebookincubator/meta-open-sound
+elysium/01_night_rain.ogg
+    rain-on-window.mp3 — Open Sleep Sounds (CC0) — github.com/localhostnick/open-sleep-sounds
+elysium/02_wind_in_alleys.ogg
+    howling-winter-wind.mp3 — Open Sleep Sounds (CC0) — github.com/localhostnick/open-sleep-sounds
+elysium/03_heartbeat_hunger.ogg
+    synthesized for GM Soundboard (CC0)
+elysium/04_elysium_murmur.ogg
+    CRWDConv_Restaurant_LOOP_01.ogg — Meta Open Sound — Oculus Audio Pack (CC0) — github.com/facebookincubator/meta-open-sound
+elysium/05_church_bell.ogg
+    synthesized for GM Soundboard (CC0)
+elysium/06_the_beast_growls.ogg
+    CREAMnstr_CreatureCreepy_OS_01.ogg — Meta Open Sound — Oculus Audio Pack (CC0) — github.com/facebookincubator/meta-open-sound
+elysium/07_hiss.ogg
+    synthesized for GM Soundboard (CC0)
+elysium/08_whispers.ogg
+    VOXWhsp_WhispersCreepyReverb_OS_01.ogg — Meta Open Sound — Oculus Audio Pack (CC0) — github.com/facebookincubator/meta-open-sound
+elysium/09_frenzy_roar.ogg
+    CREAMnstr_CreatureCreepyReverb_OS_02.ogg — Meta Open Sound — Oculus Audio Pack (CC0) — github.com/facebookincubator/meta-open-sound
+elysium/10_feeding.ogg
+    GORESqsh_BloodSquishSlimy_OS_01.ogg — Meta Open Sound — Oculus Audio Pack (CC0) — github.com/facebookincubator/meta-open-sound
+elysium/11_heavy_door.ogg
+    WOODFric_CreaksCreepyReverb_OS_01.ogg — Meta Open Sound — Oculus Audio Pack (CC0) — github.com/facebookincubator/meta-open-sound
+elysium/12_thunder.ogg
+    cinematic-thunder-massive.wav — SFX Kit by Wyzowl (CC0) — github.com/wyzowl/sfx-kit

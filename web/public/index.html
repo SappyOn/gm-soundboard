@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GM Soundboard</title>
+<meta name="description" content="Hotkey sound board for tabletop game masters">
+<link rel="icon" href="favicon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="cyber">
+<div class="fx-scan" aria-hidden="true"></div>
+
+<header class="topbar">
+  <div class="brand"><span class="brand-mark"></span><span class="brand-text">GM<b>//</b>SOUNDBOARD</span></div>
+  <nav class="tabs" id="tabs" aria-label="Boards"></nav>
+  <div class="top-actions">
+    <button class="btn ghost" id="btnEdit" title="Edit board (E)">Edit</button>
+    <button class="btn ghost" id="btnSettings" title="Settings">Settings</button>
+  </div>
+</header>
+
+<main class="stage">
+  <section class="board-head">
+    <div class="board-title">
+      <h1 id="boardName">—</h1>
+      <p id="boardSub"></p>
+    </div>
+    <div class="board-tools" id="boardTools">
+      <button class="btn small" id="btnBoardEdit">Board settings</button>
+    </div>
+  </section>
+  <section class="grid" id="grid" aria-label="Sound pads"></section>
+  <div class="edit-hint" id="editHint">Edit mode — click a pad to change it, drag pads to swap them.</div>
+</main>
+
+<footer class="mixer">
+  <div class="faders" id="faders"></div>
+  <div class="status">
+    <button class="pill" id="hkStatus" title="Hotkey status"></button>
+    <span class="now" id="nowPlaying">silence</span>
+  </div>
+  <button class="panic" id="btnPanic" title="Stop everything">
+    <span class="panic-label">SILENCE</span>
+    <span class="panic-key" id="panicKey"></span>
+  </button>
+</footer>
+
+<!-- slot / board editor -->
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer-head">
+    <h2 id="drawerTitle">Edit</h2>
+    <button class="icon-btn" id="drawerClose" title="Close (Esc)">✕</button>
+  </div>
+  <div class="drawer-body" id="drawerBody"></div>
+</aside>
+
+<!-- settings -->
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal-card">
+    <div class="drawer-head">
+      <h2>Settings</h2>
+      <button class="icon-btn" id="modalClose" title="Close (Esc)">✕</button>
+    </div>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+<script src="webapi.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

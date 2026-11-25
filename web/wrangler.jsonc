@@ -1,0 +1,10 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "gm-soundboard",
+  "compatibility_date": "2026-11-01",
+  // Static site only: Cloudflare serves everything in ./public
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "single-page-application"
+  }
+}
